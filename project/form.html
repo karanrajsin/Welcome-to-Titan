@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstr.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>rolls watches</title>
+	
+<style>
+
+*{ box-sizing:border-box; margin:0 }
+
+img{ max-width:100% }
+
+
+
+.container{
+	max-width: 1230px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+
+</style>		
+</head>
+<body id="myDIV">
+<div class="rolls-watches-outer">
+    <div class="container-fluid">
+      <div class="rolls-watches-inner">
+        <div class="rolls-watches-log"><img src="image/watch-logo.png" alt="logo"></div>
+        <div class="menu-side">
+          <div class="rolls-watches-memu">
+            <a href="#" class="mb-open">Menu<img src="image/btn.svg" alt="btn"></a>
+          </div>
+          <div class="btn">
+          <a onclick="Togglebtn()" href="#">dark mode</a>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">How it works</a>
+            </li>
+            <li>
+              <a href="#">The platform</a>
+            </li>
+          </ul><a class="mb-close" href="#">close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="watches-outer">
+		<div class="container">				
+			<div class="watches-box">
+				<h2 class="watches-heading"> <span>READY TO</span> LOGIN</h2>
+				
+				<div class="watches-form">
+					<form >
+						<div class="watches-row">
+							<div class="watches-column">
+								<input type="text" placeholder="First Name">
+							</div>							
+							<div class="watches-column">
+								<input type="text" placeholder="last name">
+							</div>
+							<div class="watches-column">
+								<input type="email" placeholder="Email">
+							</div>
+							<div class="watches-column">
+								<input type="tel" placeholder="Phone number">
+							</div>
+							<!-- <div class="watches-column">
+								<textarea placeholder="Your Message (Optional)"></textarea>
+							</div> -->
+						</div>
+						<div class="watches-submit">
+							<input type="submit"  value="submit >">
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="footer-outer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-column">
+          <h5 class="footer-heading">Useful Links</h5>
+          <ul>
+            <li><a  href="#"> Restaurants</a></li>
+            <li><a  href="#">Corporate Account </a></li>
+            <li><a  href="#">Gift Certificates</a></li>
+            <li><a  href="#">Become A Driver</a></li>
+            <li><a  href="#">Restaurant Owners</a></li>
+            <li><a  href="#">Contact Us</a></li>
+          </ul>
+        </div>  
+  
+        <div class="footer-column">
+          <h5 class="footer-heading">Address</h5>
+          <ul>
+            <li><a  href="#">2107 New Street,Portland</a></li>
+            <li><a  href="#">97205, United states </a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column socials">
+          <h5 class="footer-heading">Delivery Hours</h5>
+          <ul>
+            <li><a  href="#"><span>11 AM - 1 AM</span> 7 days a week</a></li>
+          </ul>
+          <div class="footer-socials">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="image/facebook.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="image/instagram.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-logo">
+            <img src="image/watch-logo.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="strip-outer">
+    <div class="container">
+      <div class="strip-inner">
+        <h6 class="strip-heading"><a href="#"> Create by Karanraj singh & Harshpreet kaur</a></h6>
+        <p class="strip-text"> <a href="#"> </a></p>
+      </div>  
+    </div>
+  </div>    
+
+	<script>
+  function Togglebtn() {
+    var element = document.getElementById("myDIV");
+    element.classList.toggle("dark-mode");
+  }
+
+  // function Togglebtn(){
+  //  let conf = confirm("are you sure")
+  //  if (conf === true){
+  //    var element = document.getElementById("myDIV");
+  //    element.classList.add("dark-mode")
+  //  }
+
+  //  else{
+  //    var element = document.getElementById("myDIV");
+  //    element.classList.remove("dark-mode")
+  //  }
+
+
+  // }
+
+
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+  <script>
+
+
+
+  $(".mb-open").click(function(){
+  $("body").toggleClass("menu-open");
+  });
+
+
+  $(".mb-close").click(function(){
+  $("body").removeClass("menu-open");
+  });
+
+
+
+  </script> 
+  <script type="text/javascript" src="js/bootstrap.n.js"></script>
+
+</body>
+</html>

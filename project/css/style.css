@@ -1,0 +1,1600 @@
+/*fonts*/
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+    
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*fonts ends*/
+*{box-sizing: border-box; margin: 0;}
+img{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0;}
+
+.p ,p{
+    margin: 0;
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: var(--results-color);
+}
+body{
+    font-family: 'Gotham';
+
+}
+body{
+    font-family: 'Gotham';
+    transition: 1s all;
+
+}
+
+
+
+/*roots-color*/
+
+:root{
+    --primary-color:#c6922c;
+     --secondary-color:#fff;
+     --results-color: #000;
+     --footer-color:#131313;
+}
+
+/*roots-color-end*/
+
+
+/*dark-mode-star*/
+
+body.dark-mode{
+    --secondary-color:#000;
+    --results-color: #f3f3f3;
+     --footer-color:#fff;
+
+.designed-box:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.footer-socials ul li a img {
+    filter: invert(1);
+}    
+.rolls-watches-outer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 5%);
+}
+.watches-box-outer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 6%);
+}
+.designed-box-img img {
+    filter: none;
+}
+.mobile-menu {
+    position: fixed;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ffffff 0%, #bebebe 100%);
+    width: 100%;
+    height: 100vh;
+    z-index: 999999;
+    right: -365px;
+    top: 0;
+    padding: 40px 20px;
+    transition: 0.3s all;
+    max-width: 365px;
+}
+
+}
+body.dark-mode{
+    background: rgb(0 0 0 / 5%)
+}
+
+
+
+/*dark-mode-end*/
+
+.container {
+    max-width: 1199px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.watches40{
+    font-size: 40px;
+    line-height: 1.3;
+    color: var(--secondary-color);
+}
+.watches40 span{
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.watches42 {
+    font-size: 42px;
+    color:var(--secondary-color);
+}
+.watches18{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    color:var(--secondary-color);
+/*    text-decoration: underline;*/
+}
+.watches16{
+    font-size: 16px;
+    color:var(--secondary-color);
+    line-height: 1.9;
+}
+.watches24{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:var(--secondary-color);
+}
+.watches57{
+   font-size: 57px;
+    color:var(--secondary-color);
+    line-height: 1.23;
+}
+.watches20 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--secondary-color);
+}
+.watches57 span{
+     background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 57px;
+    line-height: 1.23;
+}
+.watchs50{
+    font-size: 50px;
+    line-height: 1.58;
+    color:var(--secondary-color);
+}
+.watchs50 span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*mobile-menu str*/
+
+.mobile-menu ul li {
+    list-style: none;
+}
+.mobile-menu ul li a{
+	color:var(--secondary-color);
+	text-decoration: none;
+}
+
+.rolls-watches-memu a.mb-open {
+	color: var(--primary-color);
+	text-decoration: none;
+    position: relative;
+}
+
+.rolls-watches-memu a.mb-open img{
+	margin: 0 0 0 15px;
+}
+.mobile-menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.mobile-menu ul li {
+    list-style: none;
+    margin: 0 0 20px 0;
+}
+
+.mobile-menu {
+    position: fixed;
+  background-color: transparent;
+    background-image: linear-gradient(180deg, #000000 0%, #292929 100%);
+    width: 100%;
+    height: 100vh;
+    z-index: 999999;
+    right: -365px;
+    top: 0;
+    padding: 40px 20px;
+    transition: 0.3s all;
+    max-width: 365px;
+   
+}
+body.menu-open .mobile-menu{
+    right: 0;
+}
+a.mb-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.menu-side {
+    display: flex;
+    align-items: center;
+}
+
+/*mobile-menu end*/
+
+.rolls-watches-banner-text .watches24 {
+    margin: 10px 0;
+
+}
+.rolls-watches-inner {
+	display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+
+}
+.mobile-menu ul li a::after ,.rolls-watches-memu a.mb-open::after ,.rolls-watches-banner-btns-inner a::after ,.btn a::after{
+    width: 0%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: var(--primary-color);
+    left: 0;
+    bottom: -4px;
+    transition: 1.5s all;
+}
+.mobile-menu ul li a:hover::after ,.rolls-watches-memu a.mb-open:hover::after ,.rolls-watches-banner-btns-inner a:hover::after ,.btn a:hover::after{
+    width: 100%;
+}
+
+
+.rolls-watches-log img {
+    max-width: 125px;
+/*    filter: invert(1);*/
+    border-radius: 5%;
+}
+.rolls-watches-banner-btns-inner a ,.btn a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 40px;
+    position: relative;
+} 
+.btn a{
+    margin-left: 25px;
+}
+
+.rolls-watches-outer {
+    background-image: url(../image/watch-l.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 0 0 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: center;
+}
+.rolls-watches-outer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 40%);
+}
+.rolls-watches-banner-outer {
+/*    z-index: 1;*/
+    position: relative;
+/*    text-align: center;*/
+    padding: 100px 0 0 0;
+}
+
+.rolls-watches-banner-text a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 2px;
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    border-radius:200px ;
+    display: inline-block;
+    transition: 0.5s all;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    margin-top: 15px;
+}
+.rolls-watches-banner-text a span {
+    background-color: var(--results-color);
+    border-radius: 200px;
+    display: inline-block;
+    padding: 12px 75px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s all;
+}
+
+.rolls-watches-banner-text a:hover span{
+    background-color:transparent;
+}
+
+.watches-case-inner .development50 {
+    text-align: center;
+}
+.watches-case-inner .watches-case-box .watches-case-box-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.watches-btmbx ul li {
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    color:var(--secondary-color);
+    list-style: none;
+}
+.watches-case-box .development16::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 5px;
+    padding-right: 11px;
+    border-radius: 100%;
+    background-color: #FF7E21;
+
+}
+.watches-case-inner .watchs50 {
+    text-align: center;
+}
+.watches-case-box .development24{
+    text-align: center;
+}
+.watches-case-inner .line-img{
+    margin: 20px 0 70px;
+    text-align: center;
+}
+
+.watches-case-inner .row{
+    margin-bottom: -69px;
+}
+
+.watches-case-inner .watches-col{
+    padding-bottom: 69px;
+}
+
+.watches-btmbx {
+    padding: 26px 20px 0;
+    text-align: center;
+}
+.watches-btmbx ul li {
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    color: var(--secondary-color);
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.watches-btmbx ul li::before {
+    width: 10px;
+    height: 10px;
+    background: var(--primary-color);
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100%;
+}
+
+.watches-btmbx ul {
+    text-align: center;
+}
+
+.watches-case-outer {
+    padding: 0 0 127px 0;
+}
+.rolls-watches-team {
+    padding: 131px 0;
+}
+
+.rolls-watches-team-img img {
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 270px;
+}
+.watches-case-box-img {
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 460px;
+    margin: auto;
+    height: 330px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 10px 10px -10px;
+}
+
+.watches-case-box-img::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, 50%);
+     transition: opacity 0.4s;
+     opacity: 0;
+}
+
+.watches-case-box-img:hover::before{
+    opacity: 1;
+}
+
+
+.watches-btmbx .watches18 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.watches-case-box-img::after {
+    width: 36px;
+    height: 36px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    position: absolute;
+    z-index: 3;
+    content: "→";
+    line-height: 33px;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 100%;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    inset: 0px;
+    margin: auto;
+    background: linear-gradient(215.66deg, #faebce 0%, #c6922c 96.24%);
+    transition: opacity 0.4s;
+}
+
+.watches-case-box-img:hover::after{
+    opacity: 1;
+}
+.watches-services-inner .col.services-col {
+    width: 20%;
+    flex: unset;
+    padding: 0 5px;
+}
+
+.watches-services-outer{
+    background-image: url(../image/Frame-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 150px;
+
+}
+
+.watches-services-inner .line-img{
+    text-align: center;
+    margin: 20px 0 51px;
+}
+.watches-services-inner .development50{
+    text-align: center;
+}
+.watches-services-box-img {
+    height: 100%;
+}
+
+.watches-services-inner .col.services-col .watches-services-box {
+    background: linear-gradient(180deg, #000000 0%, #292929 100%);
+    /* box-shadow: 1px 9px 12px rgba(0, 0, 0, 0.31), 0px 20px 13px rgb(255 255 255 / 14%), inset 0px 2px 1px rgba(255, 255, 255, 0.5); */
+    border-radius: 15px;
+    text-align: center;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image: url(https://th.bing.com/th/id/OIP.RYKdhvkyz5KeifreUHNvVQHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(175 165 165 / 15%) 0px 15px 25px, rgb(134 128 128 / 5%) 0px 5px 10px;
+}
+
+.watches-services-box-img a img {
+    height: 100%;
+}
+.watches-services-inner .col.services-col .watches-services-box::after {
+    width: 36px;
+    height: 36px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    position: absolute;
+    z-index: 3;
+    content: "→";
+    line-height: 33px;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 100%;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.5);
+    inset: 0px;
+    margin: auto;
+    background: linear-gradient(215.66deg, #faebce 0%, #c6922c 96.24%);
+    transition: opacity 0.4s;
+}
+
+ .watches-services-inner .col.services-col .watches-services-box::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, 50%);
+    transition: opacity 0.4s;
+    opacity: 0;
+}
+
+ .watches-services-inner .col.services-col .watches-services-box:hover::before{
+    opacity: 1;
+}
+
+
+
+.watches-services-inner .col.services-col .watches-services-box:hover::after{
+    opacity: 1;
+}
+
+.watches-services-inner .col.services-col .watches-services-box .watches-services-box-text .development16{
+    margin: 20px 0 28px;
+}
+.watches-services-inner .col.services-col .watches-services-box-outer {
+    background-color: transparent;
+    padding: 3px;
+    transition: 0.5s all;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 210px;
+    width: 210px;
+}
+.watches-services-box-outer:hover {
+    background: linear-gradient(231.8deg, #d1ee6f 9.39%, #4a440b 51.76%, #8ceda0 93.91%);
+    transform: translateY(-10px);
+}
+/*.watches-services-inner .col.services-col .watches-services-box-outer:hover .watches-services-box {
+    background: linear-gradient(180deg, #000000 0%, #000000 100%);;
+    box-shadow: unset;
+}*/
+
+.watches-services-inner .watchs50 {
+    text-align: center;
+}
+
+.watches-box-outer {
+    background-image: url(../image/pic-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+.watches-box-outer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 30%);
+}
+.watches-box-iner {
+    position: relative;
+    z-index: 1;
+}
+.watches-box-box, .watches-box.color {
+    background-color: transparent;
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #080808 25.05%, #ffad0b45 51.71%, #05080430 79.45%);
+    border-radius: 5px;
+    height: 100%;
+    transition: 1s all;
+    overflow: hidden;
+    color: var(--secondary-color);
+}
+.watches-box.color {
+    background: linear-gradient(217.81deg, #b4b4b4 25.05%, #00000073 25.05%, #a49c8cab 51.71%, #05080430 79.45%);
+    background-color: transparent;
+    color: #ffb82c;
+}
+.watches-box-img img {
+    /* max-width: 270px; */
+    height: 250px;
+    width: 100%;
+}
+
+.watches-box-box-text {
+    padding: 40px 50px;
+}
+a.watches-box-btns ,.watches-box.color a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--primary-color);
+    position: relative;
+
+}
+.watches-box.color a{
+    color: var(--secondary-color);
+}
+p.watches-box-text {
+    margin-bottom: 20px;
+}
+a.watches-box-btns::after ,.watches-box.color a::after{
+    width: 0%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: var(--primary-color);
+    left: 0;
+    bottom: -4px;
+    transition: 1.5s all;
+}
+a.watches-box-btns::after {
+     background: var(--secondary-color);
+}
+a.watches-box-btns:hover::after ,.watches-box.color a:hover::after{
+    width: 100%;
+}
+
+.footer-inner{
+    background-color: var(--footer-color);
+}
+
+.footer-heading{
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.footer-column ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-column ul li:last-child{
+    margin: 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 71px 50px;
+    border-radius: 5px;
+}
+
+.footer-column ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+
+/*.footer-column{
+    height: 100%;
+}
+*/
+
+/*.footer-logo{
+    padding: 45px 34px 47px 43px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}*/
+.footer-logo {
+    padding: 1px;
+/*    background-color:#3d3d3d;*/
+    border-radius: 6px;
+    max-width: 135px;
+    overflow: hidden;
+}
+.footer-logo img{
+    border-radius: 6px;
+}
+
+.footer-column ul li:hover{
+    transform:scale(1.1);
+}
+
+.footer-column ul li a:hover {
+    color: var(--primary-color);
+}
+
+.footer-column ul li a span{
+    color: #7C7C7C;
+}
+
+.footer-column ul li a span:hover{
+    color: var(--red-color);
+}
+
+body .footer-socials li {
+    margin: 0 17px 0 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+body .footer-socials li:last-child {
+    margin: 0;
+}
+
+body .footer-socials li a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: var(--secondary-color);
+}
+
+.footer-socials {
+    margin: auto 0 0;
+}
+
+.footer-column.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.strip-inner {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.strip-text a{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.strip-outer{
+    padding: 10px 0 50px ;
+}
+.strip-heading a {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.footer-outer{
+  padding: 100px 0 0 0;
+}
+
+.designed-text-img {
+    width: 67%;
+    padding-left: 44px;
+}
+.designed-text-heading {
+    width: 38%;
+    position: relative;
+}
+.designed-text-heading::before {
+    position: absolute;
+    content: "";
+    height: 126px;
+    width: 126px;
+    background-image: url(../images/dots.svg);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 70%, 70% 100%, 0 100%);
+    top: -93px;
+    left: -93px;
+}
+.designed-inner {
+    display: flex;
+    align-items: center;
+}
+.designed-box-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin:  -30px -20px 0;
+ 
+ 
+}
+.designed-box-column{
+    width: 25%;
+    padding: 30px 20px 0;
+}
+
+.designed-outer {
+    padding: 100px 0 180px 0;
+}
+.designed-box-column a {
+    text-decoration: none;
+}
+.designed-box {
+    padding: 30px 10px 50px;
+    text-align: center;
+    box-shadow: 3px 8px 14px 0px rgba(0,0,0,0.05);
+    height: 100%;
+    border-radius: 24px;
+}
+.designed-box-text {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: 0.3s all;
+    position: relative;
+    top: 0;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+/*.designed-box-img {
+    margin-top: 15px;
+}*/
+.designed-box-img img {
+    opacity: 0.4;
+    transition: 0.3s all;
+    filter: invert(1);
+}
+.designed-box-img img {
+    max-width: 57px;
+    height: 40px;
+}
+.designed-box:hover .designed-box-img img{
+    opacity: 1;
+    transform: translateY(10px);
+}
+.designed-box:hover .designed-box-text {
+    color: var(--primary-color);
+    top: -5px;
+}
+.designed-text-heading .watches18{
+ margin-top: 10px;
+}
+.designed-box:hover {
+    box-shadow: rgb(228 228 235 / 25%) 0px 13px 27px -5px, rgb(255 255 255 / 30%) 0px 8px 16px -8px;
+}
+
+
+
+.watches-outer{
+    background-color: transparent;
+    padding: 55px 0 145px 0;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.watches-box{
+    width: 65%;
+/*  margin: auto;*/
+}
+
+.watches-flex{
+    display: flex;
+    align-items: center;
+}
+
+.watches-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -8px;
+}
+
+.watches-column{
+    width: 50%;
+    padding: 0 8px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.watches-column input{
+    width: 100%;
+    padding:15px 10px ;
+    border-radius: 6px;
+    outline: 0;
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+
+/*.watches-column:last-child{
+    width: 100%;
+}*/
+
+.watches-column textarea {
+     height: 172px;
+    resize: none;
+    width: 100%;
+    border-radius: 6px;
+    outline: 0;
+    padding:11px 10px ;
+    border: 3px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+.watches-submit input[type="submit"] {
+     padding: 12px 75px;
+    background-color:var(--results-color) ;
+    color: var(--secondary-color);
+    border-radius: 34px;
+    display: inline-block;
+    border: 1px solid var(--primary-color) ;
+    cursor: pointer;
+    transition: 0.5s all;
+  text-align: center;
+  font-size: 14px;
+}
+.watches-submit {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.watches-submit input[type="submit"]:hover{
+    color:var(--results-color) ;
+    background-color:var(--primary-color);
+    border: 2px solid var(--primary-color) ;
+}
+
+
+
+.watches-heading {
+    font-size: 35px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.watches-heading span{
+background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;}
+.footer-outer{
+    position: relative;
+    z-index: 0;
+}
+
+.strip-outer{
+    position: relative;
+    z-index: 0;
+}
+/*responsive-star*/
+@media (max-width: 1399.98px) { 
+    .watches57 {
+    font-size: 51px;
+    color: var(--secondary-color);
+    line-height: 1.23;
+}
+.watches57 span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 51px;
+    line-height: 1.23;
+}
+.watches24 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.watches42 {
+    font-size: 39px;
+    color: var(--secondary-color);
+}
+.designed-text-heading .watches18 {
+    margin: 30px 0;
+}
+.designed-outer {
+    padding: 100px 0 140px 0;
+}
+.watches40 {
+    font-size: 38px;
+    line-height: 1.3;
+    color: var(--secondary-color);
+}
+.watches20 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--secondary-color);
+}
+.rolls-watches-team {
+    padding: 100px 0 110px;
+}
+ }
+@media (max-width: 1199.98px){
+.rolls-watches-banner-outer {
+    z-index: 0;
+    position: relative;
+    /* text-align: center; */
+    padding: 85px 0 0 0;
+}
+.watches57 {
+    font-size: 50px;
+    color: var(--secondary-color);
+    line-height: 1.23;
+}
+.watches57 span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+    line-height: 1.23;
+}
+.watches24 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.rolls-watches-banner-text a span {
+    background-color: var(--results-color);
+    border-radius: 200px;
+    display: inline-block;
+    padding: 11px 60px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s all;
+}
+.watches-services-inner .col.services-col .watches-services-box-outer {
+    background-color: transparent;
+    padding: 3px;
+    transition: 0.5s all;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+}
+.watches18 {
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--secondary-color);
+    /* text-decoration: underline; */
+}
+.watches42 {
+    font-size: 35px;
+    color: var(--secondary-color);
+}
+.designed-box {
+    padding: 28px 9px 48px;
+    text-align: center;
+    box-shadow: 3px 8px 14px 0px rgba(0,0,0,0.05);
+    height: 100%;
+    border-radius: 24px;
+}
+.designed-box-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: 0.3s all;
+    position: relative;
+    top: 0;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+.watches18 {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--secondary-color);
+    /* text-decoration: underline; */
+}
+.rolls-watches-team-img img {
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 254px;
+}
+.watches40 {
+    font-size: 37px;
+    line-height: 1.3;
+    color: var(--secondary-color);
+}
+.watches20 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--secondary-color);
+}
+.rolls-watches-outer {
+    background-image: url(../image/watch-l.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 0 0 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: 220px;
+    background-size: 546px;
+}
+ }
+@media (max-width: 991.98px) { 
+
+.watches-services-inner .col.services-col {
+    width: 30%;
+    flex: unset;
+    padding: 0 5px;
+    margin: auto;
+}
+.watches-services-inner .col.services-col {
+    width: 30%;
+    flex: unset;
+    padding: 0 5px;
+    margin: 0 auto 22px;
+}
+.watches-services-outer {
+    background-image: url(../image/Frame-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 90px;
+}
+.designed-text-img {
+    width: 100%;
+    padding-left: 0px;
+}
+.designed-text-heading {
+    width: 100%;
+    position: relative;
+}
+.designed-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.designed-outer {
+    padding: 80px 0 100px 0;
+}
+.rolls-watches-team-inner .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.rolls-watches-team-inner .col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.rolls-watches-team-img {
+    text-align: center;
+}
+
+.rolls-watches-team-inner .col-8  .watches40 {
+    margin-top: 30px;
+}
+.watches40 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: var(--secondary-color);
+}
+.watches20 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--secondary-color);
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 30px 45px;
+    border-radius: 5px;
+}
+.rolls-watches-team {
+    padding: 100px 0 90px;
+}
+.watches-box {
+    width: 80%;
+     margin: auto; 
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 13px;
+}
+
+ }
+@media (max-width: 767.98px) { 
+.watches-services-inner .col.services-col {
+    width: 34%;
+    flex: unset;
+    padding: 0 5px;
+    margin: 0 auto 22px;
+}
+.watches-column input {
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 6px;
+    outline: 0;
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+.watches-submit input[type="submit"] {
+    padding: 11px 72px;
+    background-color: var(--results-color);
+    color: var(--secondary-color);
+    border-radius: 34px;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    transition: 0.5s all;
+    text-align: center;
+    font-size: 14px;
+}
+
+.designed-box-column {
+    width: 33%;
+    padding: 30px 20px 0;
+}
+.rolls-watches-banner-btns-inner a, .btn a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 40px;
+    position: relative;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 17px 41px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+.footer-column {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.footer-socials ul {
+        margin-top: 70px;
+}
+.footer-column ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.rolls-watches-outer {
+    background-image: url(../image/watch-l.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 0 0 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: 220px;
+    background-size: 404px;
+}
+.rolls-watches-banner-outer {
+    z-index: 0;
+    position: relative;
+    /* text-align: center; */
+    padding: 70px 0 0 0;
+}
+.watches57 span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 44px;
+    line-height: 1.23;
+}
+.watches57 {
+    font-size: 44px;
+    color: var(--secondary-color);
+    line-height: 1.23;
+}
+.watches24 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.rolls-watches-banner-text a span {
+    background-color: var(--results-color);
+    border-radius: 200px;
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s all;
+}
+.watches-services-outer {
+    background-image: url(../image/Frame-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 75px;
+}
+
+
+}
+@media (max-width: 575.98px) {
+.rolls-watches-log img {
+    max-width: 98px;
+    /* filter: invert(1); */
+    border-radius: 5%;
+}
+.watches-outer {
+    background-color: transparent;
+    padding: 50px 0 60px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.rolls-watches-memu a.mb-open {
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    font-size: 13px;
+}
+
+
+.rolls-watches-memu a.mb-open img {
+    margin: 0 0 0 15px;
+    max-width: 20px;
+}
+.btn a {
+    margin-left: 25px;
+    font-size: 11px;
+}
+.watches-services-inner .col.services-col {
+    width: 100%;
+    flex: unset;
+    padding: 0 5px;
+    margin: 0 auto 22px;
+}
+.watches-services-inner .col.services-col .watches-services-box-outer {
+    background-color: transparent;
+    padding: 3px;
+    transition: 0.5s all;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+    margin: auto;
+}
+.designed-box-column {
+    width: 50%;
+    padding: 30px 20px 0;
+}
+.rolls-watches-team-img img {
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 173px;
+}
+.watches42 {
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+.watches18 {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--secondary-color);
+    /* text-decoration: underline; */
+}
+.rolls-watches-team {
+    padding: 65px 0 65px;
+}
+.footer-column {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.watches57 {
+    font-size: 36px;
+    color: var(--secondary-color);
+    line-height: 1.23;
+}
+.watches57 span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    line-height: 1.23;
+}
+.watches24 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.rolls-watches-banner-text a span {
+    background-color: var(--results-color);
+    border-radius: 200px;
+    display: inline-block;
+    padding: 8px 36px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 1s all;
+}
+.rolls-watches-outer {
+    background-image: url(../image/watch-l.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding: 0 0 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: 290px;
+    background-size: 284px;
+}
+.watches20 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: var(--secondary-color);
+}
+.rolls-watches-banner-btns-inner a, .btn a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 10px;
+    position: relative;
+    font-size: 10px;
+}
+.btn a {
+    margin-left: 5px;
+    font-size: 10px;
+}
+.rolls-watches-memu a.mb-open {
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    font-size: 10px;
+}
+.rolls-watches-memu a.mb-open img {
+    margin: 0 0 0 8px;
+    max-width: 14px;
+}
+.rolls-watches-log img {
+    max-width: 85px;
+    /* filter: invert(1); */
+    border-radius: 5%;
+}
+.watches-column {
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+.watches-heading {
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.watches-column input {
+    width: 100%;
+    padding: 10px 9px;
+    border-radius: 6px;
+    outline: 0;
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+.watches-column {
+    width: 100%;
+    padding: 0 0px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+.watches-heading span {
+    background: linear-gradient(217.81deg, #bb954a 25.05%, #c7932c 25.05%, #e99c07 51.71%, #dbb975 79.45%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+} }
+
+/*responsive-end*/
